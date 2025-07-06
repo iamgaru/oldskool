@@ -2,7 +2,7 @@
 
 A modern SwiftUI Apple Watch app that brings retro terminal vibes to your wrist.
 
-![OldSkool Screenshot](oldskool.png)
+<img src="oldskool.png" alt="OldSkool Screenshot" width="300">
 
 ## Overview
 
@@ -67,10 +67,6 @@ Built with modern Swift patterns:
 - **Service layer**: Separate services for HealthKit, WeatherKit, and stock data
 - **Consistent theming**: Centralized styling in `TerminalTheme`
 - **Async data loading**: All data fetching uses modern async/await patterns
-
-## Author
-
-**Nick Conolly** - *Developer* - [GitHub](https://github.com/iamgaru)
 
 ## Credits
 
