@@ -68,10 +68,16 @@ Built with modern Swift patterns:
 - **Consistent theming**: Centralized styling in `TerminalTheme`
 - **Async data loading**: All data fetching uses modern async/await patterns
 
+## Author
+
+**Nick Conolly** - *Developer* - [GitHub](https://github.com/iamgaru)
+
 ## Credits
 
 Inspired by [TermiWatch](https://github.com/kuglee/TermiWatch) by kuglee. OldSkool is a modern rewrite built with current SwiftUI and watchOS APIs.
 
 ## License
 
-MIT License - see LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+Copyright (c) 2025 Nick Conolly
