@@ -1,0 +1,683 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		046829002E192A7F00A2D034 /* OldSkool Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 046828FF2E192A7F00A2D034 /* OldSkool Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		046829012E192A7F00A2D034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046828F32E192A7F00A2D034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046828FE2E192A7F00A2D034;
+			remoteInfo = "OldSkool Watch App";
+		};
+		0468290F2E192A8100A2D034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046828F32E192A7F00A2D034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046828FE2E192A7F00A2D034;
+			remoteInfo = "OldSkool Watch App";
+		};
+		046829192E192A8100A2D034 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 046828F32E192A7F00A2D034 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 046828FE2E192A7F00A2D034;
+			remoteInfo = "OldSkool Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		046829252E192A8100A2D034 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				046829002E192A7F00A2D034 /* OldSkool Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		046828F92E192A7F00A2D034 /* OldSkool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OldSkool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		046828FF2E192A7F00A2D034 /* OldSkool Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OldSkool Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0468290E2E192A8100A2D034 /* OldSkool Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OldSkool Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		046829182E192A8100A2D034 /* OldSkool Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "OldSkool Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		046829032E192A7F00A2D034 /* OldSkool Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OldSkool Watch App";
+			sourceTree = "<group>";
+		};
+		046829112E192A8100A2D034 /* OldSkool Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OldSkool Watch AppTests";
+			sourceTree = "<group>";
+		};
+		0468291B2E192A8100A2D034 /* OldSkool Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "OldSkool Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		046828FC2E192A7F00A2D034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0468290B2E192A8100A2D034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046829152E192A8100A2D034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		046828F22E192A7F00A2D034 = {
+			isa = PBXGroup;
+			children = (
+				046829032E192A7F00A2D034 /* OldSkool Watch App */,
+				046829112E192A8100A2D034 /* OldSkool Watch AppTests */,
+				0468291B2E192A8100A2D034 /* OldSkool Watch AppUITests */,
+				046828FA2E192A7F00A2D034 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		046828FA2E192A7F00A2D034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				046828F92E192A7F00A2D034 /* OldSkool.app */,
+				046828FF2E192A7F00A2D034 /* OldSkool Watch App.app */,
+				0468290E2E192A8100A2D034 /* OldSkool Watch AppTests.xctest */,
+				046829182E192A8100A2D034 /* OldSkool Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		046828F82E192A7F00A2D034 /* OldSkool */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046829262E192A8100A2D034 /* Build configuration list for PBXNativeTarget "OldSkool" */;
+			buildPhases = (
+				046828F72E192A7F00A2D034 /* Resources */,
+				046829252E192A8100A2D034 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046829022E192A7F00A2D034 /* PBXTargetDependency */,
+			);
+			name = OldSkool;
+			packageProductDependencies = (
+			);
+			productName = OldSkool;
+			productReference = 046828F92E192A7F00A2D034 /* OldSkool.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		046828FE2E192A7F00A2D034 /* OldSkool Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046829222E192A8100A2D034 /* Build configuration list for PBXNativeTarget "OldSkool Watch App" */;
+			buildPhases = (
+				046828FB2E192A7F00A2D034 /* Sources */,
+				046828FC2E192A7F00A2D034 /* Frameworks */,
+				046828FD2E192A7F00A2D034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				046829032E192A7F00A2D034 /* OldSkool Watch App */,
+			);
+			name = "OldSkool Watch App";
+			packageProductDependencies = (
+			);
+			productName = "OldSkool Watch App";
+			productReference = 046828FF2E192A7F00A2D034 /* OldSkool Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0468290D2E192A8100A2D034 /* OldSkool Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 046829292E192A8100A2D034 /* Build configuration list for PBXNativeTarget "OldSkool Watch AppTests" */;
+			buildPhases = (
+				0468290A2E192A8100A2D034 /* Sources */,
+				0468290B2E192A8100A2D034 /* Frameworks */,
+				0468290C2E192A8100A2D034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				046829102E192A8100A2D034 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				046829112E192A8100A2D034 /* OldSkool Watch AppTests */,
+			);
+			name = "OldSkool Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "OldSkool Watch AppTests";
+			productReference = 0468290E2E192A8100A2D034 /* OldSkool Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		046829172E192A8100A2D034 /* OldSkool Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0468292C2E192A8100A2D034 /* Build configuration list for PBXNativeTarget "OldSkool Watch AppUITests" */;
+			buildPhases = (
+				046829142E192A8100A2D034 /* Sources */,
+				046829152E192A8100A2D034 /* Frameworks */,
+				046829162E192A8100A2D034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0468291A2E192A8100A2D034 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				0468291B2E192A8100A2D034 /* OldSkool Watch AppUITests */,
+			);
+			name = "OldSkool Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "OldSkool Watch AppUITests";
+			productReference = 046829182E192A8100A2D034 /* OldSkool Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		046828F32E192A7F00A2D034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					046828F82E192A7F00A2D034 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					046828FE2E192A7F00A2D034 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					0468290D2E192A8100A2D034 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 046828FE2E192A7F00A2D034;
+					};
+					046829172E192A8100A2D034 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 046828FE2E192A7F00A2D034;
+					};
+				};
+			};
+			buildConfigurationList = 046828F62E192A7F00A2D034 /* Build configuration list for PBXProject "OldSkool" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 046828F22E192A7F00A2D034;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 046828FA2E192A7F00A2D034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				046828F82E192A7F00A2D034 /* OldSkool */,
+				046828FE2E192A7F00A2D034 /* OldSkool Watch App */,
+				0468290D2E192A8100A2D034 /* OldSkool Watch AppTests */,
+				046829172E192A8100A2D034 /* OldSkool Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		046828F72E192A7F00A2D034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046828FD2E192A7F00A2D034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0468290C2E192A8100A2D034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046829162E192A8100A2D034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		046828FB2E192A7F00A2D034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0468290A2E192A8100A2D034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046829142E192A8100A2D034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		046829022E192A7F00A2D034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046828FE2E192A7F00A2D034 /* OldSkool Watch App */;
+			targetProxy = 046829012E192A7F00A2D034 /* PBXContainerItemProxy */;
+		};
+		046829102E192A8100A2D034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046828FE2E192A7F00A2D034 /* OldSkool Watch App */;
+			targetProxy = 0468290F2E192A8100A2D034 /* PBXContainerItemProxy */;
+		};
+		0468291A2E192A8100A2D034 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 046828FE2E192A7F00A2D034 /* OldSkool Watch App */;
+			targetProxy = 046829192E192A8100A2D034 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		046829202E192A8100A2D034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 335AZ72EK4;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		046829212E192A8100A2D034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 335AZ72EK4;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		046829232E192A8100A2D034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OldSkool Watch App/OldSkool Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 335AZ72EK4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "../OldSkool Watch App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OldSkool;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gamu.OldSkool.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		046829242E192A8100A2D034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "OldSkool Watch App/OldSkool Watch App.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 335AZ72EK4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "../OldSkool Watch App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = OldSkool;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gamu.OldSkool.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		046829272E192A8100A2D034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 335AZ72EK4;
+				INFOPLIST_KEY_CFBundleDisplayName = OldSkool;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gamu.OldSkool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		046829282E192A8100A2D034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 335AZ72EK4;
+				INFOPLIST_KEY_CFBundleDisplayName = OldSkool;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.gamu.OldSkool;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0468292A2E192A8100A2D034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 335AZ72EK4;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "../OldSkool Watch App/Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.gamu.OldSkool-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OldSkool Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OldSkool Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		0468292B2E192A8100A2D034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 335AZ72EK4;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "../OldSkool Watch App/Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.gamu.OldSkool-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OldSkool Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OldSkool Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		0468292D2E192A8100A2D034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 335AZ72EK4;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "../OldSkool Watch App/Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.gamu.OldSkool-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "OldSkool Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		0468292E2E192A8100A2D034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 335AZ72EK4;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "../OldSkool Watch App/Info.plist";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.gamu.OldSkool-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "OldSkool Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		046828F62E192A7F00A2D034 /* Build configuration list for PBXProject "OldSkool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046829202E192A8100A2D034 /* Debug */,
+				046829212E192A8100A2D034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046829222E192A8100A2D034 /* Build configuration list for PBXNativeTarget "OldSkool Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046829232E192A8100A2D034 /* Debug */,
+				046829242E192A8100A2D034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046829262E192A8100A2D034 /* Build configuration list for PBXNativeTarget "OldSkool" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				046829272E192A8100A2D034 /* Debug */,
+				046829282E192A8100A2D034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		046829292E192A8100A2D034 /* Build configuration list for PBXNativeTarget "OldSkool Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0468292A2E192A8100A2D034 /* Debug */,
+				0468292B2E192A8100A2D034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0468292C2E192A8100A2D034 /* Build configuration list for PBXNativeTarget "OldSkool Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0468292D2E192A8100A2D034 /* Debug */,
+				0468292E2E192A8100A2D034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 046828F32E192A7F00A2D034 /* Project object */;
+}
