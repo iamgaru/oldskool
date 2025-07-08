@@ -29,7 +29,6 @@ struct ContentView: View {
             }
         }
         .ignoresSafeArea(.all)
-        .persistentSystemOverlays(.hidden)
         .onAppear {
             Task {
                 await refreshAllWidgets()

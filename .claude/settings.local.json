@@ -8,7 +8,17 @@
       "Bash(cp:*)",
       "Bash(rm:*)",
       "Bash(grep:*)",
-      "Bash(sed:*)"
+      "Bash(sed:*)",
+      "Bash(system_profiler:*)",
+      "Bash(xcrun simctl list:*)",
+      "Bash(xcrun devicectl list:*)",
+      "Bash(xcrun xctrace:*)",
+      "Bash(open:*)",
+      "Bash(xcrun devicectl unpair device:*)",
+      "Bash(xcrun devicectl:*)",
+      "Bash(xcrun simctl boot:*)",
+      "Bash(sudo pkill:*)",
+      "Bash(pkill:*)"
     ],
     "deny": []
   }
